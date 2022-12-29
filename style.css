@@ -1,0 +1,1442 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+    font-family: Yank;
+    src: url(Yank.ttf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(RobotoSlab-VariableFont_wght.ttf);
+}
+
+#main{
+    background-color: #F4F1E8;
+    font-family: druk;
+    overflow: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+#bottle{
+    position: absolute;
+    top: 55vh;
+    left: 55vw;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    height: 42vw;
+    z-index: 999;
+    position: fixed;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+}
+#text{
+     position: relative; 
+    top: 65%;
+    left: 20%;
+    -webkit-transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%); 
+    /* background-color: red;*/
+    width: 33%;
+    height: 55%;
+}
+
+#text h4{
+    font-family: yank;
+    font-size: 2vw;
+}
+#text h1{
+    
+    font-size: 6vw;
+    color: linear-gradient(rgb(0, 0, 0),rgb(245, 245, 243));
+    font-family:Helvetica, sans-serif;
+    font-weight: 900;
+line-height: 5.5vw;
+margin-top: 1vh;
+letter-spacing: -0.3vw;
+}
+#text h3{
+    
+    font-size: 1vw;
+    color: black;
+    font-family:Druk, sans-serif;
+    font-weight: 600;
+    padding-top: 3.5vh;
+
+}
+#text h5{
+    font-size: 0.9vw;
+    color: rgb(2, 2, 2) ;
+    font-family:Helvetica, sans-serif;
+    font-weight: 600;
+    padding-top: 2vh;
+    letter-spacing: 0.05vw;
+   
+}
+#text2{
+   position: absolute;
+   top: 50vh;
+   right: -15vh;
+    height: 30vh;
+    width: 58vh;
+    transform: translate(-50%,-50%); 
+   /*background-color: red;*/
+   
+   
+}
+#text2 img{
+    margin-top:12vh;
+    
+}
+#text2 h1{
+    font-family:Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(35, 107, 141);
+}
+#text2 #s1{
+    font-size: 5vh;
+}
+#text2 #s2{
+    font-size: 10vh;
+    letter-spacing: -0.3vw;
+}
+#text2 #s3{
+    font-size: 5vh;
+}
+#nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+}
+ #leftnav{
+    height: 16vh;
+    width: 94vw;
+    margin-top: 0vh;
+    margin-left: 3vw;
+    border-bottom: 0.5vh solid black;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    z-index: 99;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color:#F4F1E8 ;
+    
+}
+#leftnav i{
+    position: absolute;
+    left: 0;
+    
+    font-size: 30px;
+}
+#leftnav #i2{
+    
+    margin-left: 7vh;
+
+}
+hr{
+    width: 100%;
+    margin-top: 3.4vh;
+}
+
+ 
+#leftnav >button{
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: brown;
+    padding: 8px 20px;
+    border: 1px solid brown;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-left: 50vh;
+}
+#page2{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5%;
+} 
+#page2>#left{
+    position: absolute;
+    right: 1vw;
+    top: 100vh;
+}
+#left #pic1{
+   
+    height: 42vh;
+    width: 30vw;
+}
+#left img{
+   position: absolute;
+   bottom: 10.5vh;
+   left: 5.5vw;
+    height: 24vh;
+    width: 12vw;
+    
+}
+#left button{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    padding: 11px 23px;
+    border: none;
+    letter-spacing: -0.01vw;
+    font-weight: 100;
+    margin-left:9.5vh;
+    margin-top: 2vh;
+}
+#page2 #right{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+     flex-direction: column;
+    width: 30%;
+    height: 75%;
+    border: 2px solid black;
+    gap: 40px;
+}
+#right .textdiv{
+    font-family: Gilroy;
+    margin: 10px 10px;
+}
+#textdiv1{
+    height:9%;
+    width: 90%;
+    font-size: 15px;
+   border-bottom: 2px solid black;
+}
+#textdiv1 h3{
+    margin-top: -3px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#textdiv1 p{
+    margin-bottom: 15px;
+}
+
+#textdiv2{
+    position: relative;
+    height:19% ;
+    width: 90%;
+    border-bottom: 2px solid black;
+}
+#paranum{
+    width: 100%;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    margin-top: -14%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 20px;
+    -webkit-box-align: start;
+     -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+#paranum h1{
+      font-size: 40px;
+}
+#paranum p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+#textdiv2 h3{
+margin-bottom:-50px;
+}
+
+#textdiv2 h4{
+    font-size: 16px;
+}
+#textdiv3{
+    position: relative;
+    height:19% ;
+    width: 90%;
+    border-bottom: 2px solid black;
+}
+
+#paranum1{
+    width: 100%;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    margin-top: -14%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+     justify-content: center;
+    gap: 18px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 18px;
+}
+#paranum1 h1{
+      font-size: 40px;
+}
+#paranum1 p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+#textdiv3 h4{
+    font-size: 16px;
+    margin-bottom:-13px ;
+}
+#textdiv3 h3{
+    font-size: 18px;
+    margin-top:16px;
+}
+
+#textdiv4{
+    position: relative;
+    height:15% ;
+    width: 90%;
+}
+#paranum2{
+    width: 100%;
+    display : -webkit-box;
+    display : -ms-flexbox;
+    display : flex;
+    margin-top: -14%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 16px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+#paranum2 h1{
+      font-size: 40px;
+}
+#paranum2 p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+#page3{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 8%;
+    margin-top: -10%;
+
+}
+#page3 h1{
+    font-size: 10vw;
+    color: rgb(35, 107, 141);
+    font-family:Helvetica, sans-serif;
+    font-weight: 900;
+     line-height: 5.5vw;
+     letter-spacing: -0.5vw;
+     padding-top: 10vh;
+     padding-bottom: 14vh;
+     padding-left: 5vw;
+}
+#page3box{
+    margin-top: -5%;
+   width: 90%;
+   height: 80%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+#imgbox{
+    width: 60%;
+    height: 100%;
+}
+#youtube{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 59%;
+    height: 50%;
+}
+#youtube img{
+    padding-top: -40px;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+#youtube button{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+    background: #c8102e;
+    border-radius: 50%;
+    border-color: transparent;
+}
+#youtube button i{
+  color: white;
+  font-size: 25px;
+}
+#imgbox h3{
+    position: relative;
+    top: 12%;
+    font-family: "Yank";
+    font-size: 25px;
+    width: 55%;
+    left: 5%;
+}
+#textbox{
+    width: 59%;
+    height: 100%;
+    padding-top: 5%;
+    padding-left: 14%;
+    }
+    #textbox h2{
+        padding: 20px 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+#textbox>p{
+    font-family: Arial, Helvetica, sans-serif;
+    width:75% ;
+}
+#page4{
+    position: relative;
+    width: 100vw;
+    height: 130vh;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#pic1{
+    width: 23%;
+    height: 38%;
+   background-image: url(https://lagunitas.com/wp-content/uploads/2022/08/Hoppy-Refresher.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+    -ms-flex-align: center;
+ align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+           flex-direction: column;
+   padding: 30px 0px;
+   padding-left: 30px;
+   
+}
+#pic1>img{
+    width: 4vw;
+}
+#pic1>h3{
+    border-bottom: 2px solid black;
+}
+#pic1>p{
+    font-family: 8px;
+    font-family: gilroy;
+    width: 70%;
+    padding-left: 6px;
+    padding-top: 10px;
+
+}
+#pic2{
+    position: relative;
+    top: -10%;
+    left: 19%;
+    width: 26%;
+    height: 48%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2022/08/Hoppy-Refresher.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+     flex-direction: column;
+    padding: 40px 0px;
+    padding-left:5%;
+}
+#pic3>img{
+    width: 4vw;
+}
+
+#pic2>h3{
+    border-bottom: 2px solid black;
+}
+#pic2>p{
+    font-family: 8px;
+    font-family: gilroy;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#pic3{
+    position: relative;
+    top: -70%;
+    right:-55%;
+    width: 28%;
+    height: 55%;
+   background-image: url(https://lagunitas.com/wp-content/themes/lagunitas/assets/images/splat-black.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 40px 0px;
+    padding-left:5%;
+    color: white;
+}
+#pic3>h3{
+    border-bottom: 2px solid white;
+}
+#pic3>p{
+    font-family: 7px;
+    font-family: gilroy;
+    padding-left: 30px;
+    padding-top: 17px;
+}
+#page4 #glassdiv{
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    height: 54%;
+    width: 24%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/07/Hoppy-Refresher-Mason-Jar-671x1024.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-transform:rotate(-20deg);
+        -ms-transform:rotate(-20deg);
+            transform:rotate(-20deg);
+}
+
+#page5{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+#page5-text{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    width: 50%;
+    height: 17%;
+    text-align: center;
+}
+#page5-text h3{
+    font-size: 23px;
+    font-family: "Yank";
+}
+#page5-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    letter-spacing: -0.4vh;
+}
+#page5-box{
+    position: relative;
+    top: 33%;
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page5-box>img{
+    -webkit-transition: all ease;
+    -o-transition: all ease;
+    transition: all ease;
+}
+
+#img1{
+    height: 100%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+#img2{
+    height: 100%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 3%;
+}
+#img2 img{
+    height: 35vw;
+}
+#img3{
+    height: 120%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 5%;
+    /* padding-bottom: -5%; */
+}
+#img3 img{
+    -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+    height: 28vw;
+    padding-left: 14%;
+    opacity: 0;
+}
+#img4{
+    height: 100%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 8%;
+}
+#img5{
+    height: 90%;
+    width: 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 1%;
+
+}
+#page6{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 5%;
+}
+#page6-left{
+    width: 50%;
+    height: 100%;
+}
+#page6-left #imgbox{
+    position: relative;
+    top: 23%;
+    left: 10%;
+    width: 70%;
+    height: 60%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/07/MicrosoftTeams-image-33-1024x683.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#page6-right{
+    margin-top: 8%;
+    width: 40%;
+    height: 100%;
+    margin-left: 40px;
+}
+#page6 #page6-right>h2{
+    font-family: Yank;
+    font-size: 40px;
+    font-weight: 100;
+}
+#page6 #page6-right>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 8vh;
+    font-size: 5vw;  
+}
+
+#page6 #page6-right>p{
+    padding-top: 13px;
+    font-family: gilroy;
+    font-size: 17px;
+}
+#page6 #page6-right>button{
+    margin-top: 7%;
+    background-color: black;
+    color: white;
+    padding: 8px 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    letter-spacing: -0.05vw;
+}
+#footer{
+    width: 100vw;
+    height: 84vh;
+    background-color: rgb(23, 23, 23);
+    overflow: hidden;
+}
+#logod{
+    margin-top: 15vh;
+    margin-left: 10vh;
+    height: 18vh;
+    width: 18vh;
+}
+#list{
+    position: absolute;
+    bottom: 32vh;
+    left: 40vh;
+    height: 40vh;
+    width: 60vh;
+   /* background-color: red;*/
+}
+#list h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8.5vh;
+    font-weight: 900;
+    letter-spacing: -0.6vh;
+    line-height:9.5vh ;
+}
+#list2{
+    position: absolute;
+    bottom: 4vh;
+    left: 40vh;
+    height: 10vh;
+    width: 150vh;
+   /*background-color: red;*/
+}
+#list2 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+#list2 span{
+    padding-right:1.5vw;
+}
+#list2 #l6{
+    padding-left:41vw;
+}
+#list2 #l5{
+    padding-left:4.5vw ;
+}
+#list2 a{
+    color: white;
+ 
+}
+.subtitle{
+    position: absolute;
+    bottom: 65vh;
+    right: 30vh;
+    font-size: 3.6vh;
+    font-family: yank;
+    color: white;
+}
+#list3 input{
+    position: absolute;
+    bottom: 57.5vh;
+    right: 17.5vh;
+    padding: 18px 17vw 18px 1.5vw;
+    border-radius: 0% ;
+    
+}
+#list3 input ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#list3 button{
+    position: absolute;
+    bottom: 58.5vh;
+    right: 19vh;
+    padding: 0.6vw 2.2vw;
+    background-color: black;
+    color: white;
+}
+#list3 button h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    font-weight: 700;
+}
+#list3 ul{
+    padding-left: 64vw;
+    display: flex;
+    list-style-type: none;
+}
+#list3 li{
+   font-size: 4vh;
+    color: white;
+    margin-left: 3vh;
+}
+#list3 button:hover{
+    background-color: #c8102e;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+    border: none;
+}
+#list3 li:hover{
+    color: #c8102e;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+}
+#list h1 span:hover{
+    color: #c8102e;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+}
+#page6-right h1:hover{
+    color: #c8102e;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+}
+#button:hover{
+   background-color: #c8102e;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+}
+#left button:hover{
+    background-color: #c8102e;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+}
+#list2 h1 span a:hover{
+   color: #c8102e;
+    text-decoration: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    cursor: pointer;
+}
+
+#text2 h2{
+    display: none;
+}
+#page1 #pic1{
+    display: none;
+}
+#page4 h1{
+    font-size: 9vw;
+    color: rgb(35, 107, 141);
+    font-family:Helvetica, sans-serif;
+    font-weight: 900;
+     line-height: 5.5vw;
+     letter-spacing: -0.5vw;
+     
+     padding-bottom: 14vh;
+     padding-left: 2vw;
+}
+#pi1{
+    display: none;
+}
+#pi2{
+    display: none;
+}
+#pi3{
+    display: none;
+}
+
+@media(max-width: 500px){
+    #page6 h1:hover{
+        color: #c8102e;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+        cursor: pointer;
+    }
+    #button:hover{
+       background-color: #c8102e;
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+        cursor: pointer;
+    }
+    #bottle{
+        opacity: 1;
+        position: absolute;
+        top: 50vh;
+        left: 37vw;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        height: 72vw;
+        z-index: 999;
+        position: fixed;
+    }
+    #leftnav{
+        height: 13vh;
+        
+    }
+    #leftnav i{
+        position: absolute;
+        left: 5px;
+        
+        font-size: 25px;
+    }
+    #leftnav #i2{
+        
+        margin-left: 6vh;
+    
+    }
+    hr{
+        width: 100%;
+        margin-top: -3.5vh;
+    }
+    #leftnav img{
+        height:45px;
+        width: 190px;
+        margin-left: 27vw;
+    }
+    
+    #leftnav >button{
+      position: relative;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: white;
+        background-color: brown;
+        padding: 9px 10px;
+        border: 1px solid brown;
+        letter-spacing:-0.01vw;
+        font-weight: 100;
+        margin-left: 50vh;
+        bottom: 6vh;
+    }
+    #text{
+        position: relative; 
+       top: 45%;
+       left: 50%;
+       -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%); 
+       /* background-color: red;*/
+       width: 90%;
+       height: 55%;
+       text-align: center;
+   }
+   #text h1{
+    
+    font-size: 7.8vw;
+    font-weight: 900;
+line-height: 5.5vw;
+margin-top: 1vh;
+letter-spacing: -0.3vw;
+}
+    #text h4{
+        font-family: yank;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+   #text br{
+    display: none;
+   }
+   #text h3{
+    margin-top: 45vh;
+    font-size: 4vw;
+    color: black;
+    font-family:Druk, sans-serif;
+    font-weight: 600;
+    padding-top: 3.5vh;
+    letter-spacing: -0.2vw;
+}
+#text h5{
+    font-size: 3vw;
+    color: rgb(2, 2, 2) ;
+    font-family:Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top: 2vh;
+    letter-spacing: 0vw;
+    line-height: 3vh;
+}
+#text2{
+    position: absolute;
+
+    top: 65vh;
+    right: -23vh;
+     height: 20vh;
+     width: 58vh;
+     transform: translate(-50%,-50%); 
+    /*background-color: red;*/
+    
+    
+ }
+#text2 h2{
+    display: block;
+    line-height: 2.5vh;
+    font-family:Helvetica, sans-serif;
+    text-align: end;
+    font-weight: 600;
+    color: rgb(35, 107, 141);
+   
+}
+#text2 #s1{
+    font-size: 5vh;
+}
+#text2 #s2{
+    font-size: 3vh;
+
+}
+#text2 #s3{
+    font-size: 3vh;
+}
+#text2 #s4{
+    font-size: 3vh;
+}
+
+ #text2 h1{
+    display: none;
+ }
+#text2 img{
+    display: none;
+}
+
+#page1 #pic1{
+    display: block;
+    position: absolute;
+    right: 65vw;
+    top: 35vh;
+    height: 42vh;
+    width: 30vw;
+}
+#left img{
+   display: none;
+ }
+ #left button{
+    display: none;
+ }
+ #page2 {
+    display: none;
+ }
+ #page3{
+    width: 100vw;
+    height: 100vh;
+    margin-left: 8%;
+    margin-top: -19%;
+
+}
+#textbox{
+    width: 100%;
+    height: 100%;
+    padding-left: 0%;
+    }
+    #textbox h2{
+        margin-top: 130%;
+        margin-left: -180px;
+        padding: 20px 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+#textbox p:nth-child(1){
+    margin-top: -20%;
+    width: 160%;
+    font-size: 2.9vw;
+  margin-left: -180px;
+  line-height: 3vh;
+}
+#textbox p:nth-child(3){
+    margin-top: 0%;
+    width: 160%;
+    font-size: 2.9vw;
+  margin-left: -180px;
+  line-height: 3vh;
+}
+#youtube{
+    position: relative;
+    top: 14%;
+    left: 0%;
+    width: 250%;
+    height: 45%;
+}
+#youtube img{
+    padding-top: -40px;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+#imgbox h3{
+    position: relative;
+    top: 17%;
+    font-family: "Yank";
+    font-size: 24px;
+    width: 200%;
+    left: 0%;
+    line-height: 25px;
+}
+#page4 h1{
+    font-size: 9vw;
+    color: rgb(35, 107, 141);
+    font-family:Helvetica, sans-serif;
+    font-weight: 900;
+     line-height: 5.5vw;
+     letter-spacing: -0.5vw;
+     padding-top: 10vh;
+     padding-bottom: 14vh;
+     padding-left: 0vw;
+}
+#page4{
+    position: relative;
+    width: 90vw;
+    height: 130vh;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+#pic1{
+    display: none;
+}
+#pic2{
+    display: none;
+}
+#pic3{
+    display: none;
+}
+#page4 #glassdiv{
+    top: 25%;
+    left: 25%;
+    height: 80%;
+    width: 35%;
+}
+#pi1{
+   display: inline;
+}
+#pi1>img{
+    position: absolute;
+    right: 40%;
+bottom:76%;
+    width: 7vw;
+}
+#pi1>h3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 22%;
+   
+}
+#pi1>p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    font-size: 3vw;
+    font-weight: 500;
+    padding-left: 6px;
+    padding-top: 35px;
+    position: absolute;
+    right: 4%;
+}
+#pi2{
+    display: inline;
+ }
+ #pi2>img{
+     position: absolute;
+     right: 40%;
+ bottom:62%;
+     width: 7vw;
+ }
+ #pi2>h3{
+     font-family: Arial, Helvetica, sans-serif;
+     position: absolute;
+     right: 18%;
+     bottom:62%;
+ }
+ #pi2>p{
+     font-family: Arial, Helvetica, sans-serif;
+     width: 45%;
+     font-size: 3vw;
+     font-weight: 500;
+     padding-left: 6px;
+     padding-top: 40px;
+     position: absolute;
+     right: 4%;
+     bottom:50%;
+ }
+ #pi3{
+    display: inline;
+ }
+ #pi3>img{
+     position: absolute;
+     right: 40%;
+ bottom:44%;
+     width: 7vw;
+     background-color: black;
+ }
+ #pi3>h3{
+     font-family: Arial, Helvetica, sans-serif;
+     position: absolute;
+     right: 18%;
+     bottom:44%;
+ }
+ #pi3>p{
+     font-family: Arial, Helvetica, sans-serif;
+     width: 45%;
+     font-size: 3vw;
+     font-weight: 500;
+     padding-left: 6px;
+     padding-top: 40px;
+     position: absolute;
+     right: 4%;
+     bottom:27%;
+ }
+ #page5-text{
+      top: -15%;
+      width: 70%;
+}
+#page5-text h3{
+    font-size: 23px;
+    font-family: "Yank";
+}
+#page5-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9vw;
+    letter-spacing: -0.4vh;
+}
+#page5-box{
+    position: relative;
+    top: -9%;
+    width: 90%;
+    height: 60%;
+    margin-left: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page5-box>img{
+    -webkit-transition: all ease;
+    -o-transition: all ease;
+    transition: all ease;
+}
+#page5-box #img1{
+    display: none;
+}
+#page5-box #img4{
+    display: none;
+}
+#page5-box #img5{
+   padding-left: 10%;
+   width: 50%;
+}
+#page5-box #img3{
+    padding-top: 30%;
+    padding-left: 1%;
+   height: 30%;
+    width: 200%;
+ }
+ #page6{
+    position: relative;
+    width: 90vw;
+    height: 55vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 4%;
+    border-bottom: black solid 3px;
+    margin-bottom: 30px;
+}
+#page6 hr{
+    margin-top: 87px;
+    margin-left: -2.5%;
+}
+#page6-left{
+    width: 50%;
+    height: 100%;
+}
+#page6-left #imgbox{
+    position: relative;
+    top: -60%;
+    left: 10%;
+    width: 190%;
+    height: 120%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/07/MicrosoftTeams-image-33-1024x683.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#page6-right{
+    margin-top: 7%;
+    margin-left: -44%;
+    width: 100%;
+    height: 100%;
+
+}
+#page6 #page6-right>h2{
+        font-family: Yank;
+    font-size: 25px;
+    font-weight: 100;
+}
+#page6 #page6-right>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 4.5vh;
+    font-size: 7vw;
+    
+}
+
+#page6 #page6-right>p{
+    padding-top: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+#page6 #page6-right>button{
+    margin-top: 7%;
+    background-color: black;
+    color: white;
+    padding: 8px 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: -0.05vw;
+}
+#page6 #page6-right br{
+    display: none;
+}
+.subtitle{
+    position: absolute;
+    bottom: 73vh;
+    right: 17vh;
+    font-size: 3.6vh;
+    font-family: yank;
+    color: white;
+}
+#list3 input{
+    position: absolute;
+    bottom: 64vh;
+    right: 4vh;
+    padding: 19px 53vw 19px 3vw;
+    border-radius: 0% ;
+    
+}
+#list3 input ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#list3 button{
+    position: absolute;
+    bottom: 65.05vh;
+    right: 6.5vh;
+    padding: 2vw 2.5vw;
+    background-color: black;
+    color: white;
+}
+#list3 button h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    font-weight: 700;
+}
+#list3 ul{
+    margin-top: -200px;
+    padding-left: 4vw;
+    display: flex;
+    list-style-type: none;
+}
+#list3 li{
+   font-size: 4vh;
+    color: white;
+    margin-left: 3vh;
+}
+#logod{
+    margin-top: 40vh;
+    margin-left: 48vh;
+    height: 12vh;
+    width: 12vh;
+}
+#list{
+    position: absolute;
+    bottom: 7vh;
+    left: 5vh;
+    height: 40vh;
+    width: 60vh;
+   /* background-color: red;*/
+}
+#list h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+    font-weight: 900;
+    letter-spacing: -0.2vh;
+    line-height:6vh ;
+    
+}
+#list2{
+    position: absolute;
+    bottom: 4vh;
+    left: 6vw;
+    height: 10vh;
+    width: 60vh;
+   /*background-color: red;*/
+}
+#list2 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 500;
+}
+#list2 span{
+    
+    padding-right:1.5vw;
+}
+#list2 #l6{
+    display: none;
+    padding-left:41vw;
+}
+#list2 #l5{
+    display: none;
+    padding-left:4.5vw ;
+}
+#list2 #l3{
+    display: none;
+    
+}
+}
