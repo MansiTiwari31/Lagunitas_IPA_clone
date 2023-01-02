@@ -939,26 +939,26 @@ margin-bottom:-50px;
     }
     hr{
         width: 100%;
-        margin-top: -3.5vh;
+        margin-top: -1.5vh;
     }
     #leftnav img{
-        height:45px;
-        width: 190px;
-        margin-left: 27vw;
+        height:35px;
+        width: 170px;
+        margin-left: 23vw;
     }
     
     #leftnav >button{
       position: relative;
         font-family:Arial, Helvetica, sans-serif;
-        font-size: 14px;
+        font-size: 12px;
         color: white;
         background-color: brown;
-        padding: 9px 10px;
+        padding: 8px 8px;
         border: 1px solid brown;
         letter-spacing:-0.01vw;
         font-weight: 100;
-        margin-left: 50vh;
-        bottom: 6vh;
+        margin-left: 70vw;
+        bottom: 5vh;
     }
     #text{
         position: relative; 
@@ -1020,7 +1020,7 @@ letter-spacing: -0.3vw;
  }
 #text2 h2{
     display: block;
-    line-height: 2.5vh;
+    line-height: 2vh;
     font-family:Helvetica, sans-serif;
     text-align: end;
     font-weight: 600;
@@ -1031,14 +1031,14 @@ letter-spacing: -0.3vw;
     font-size: 5vh;
 }
 #text2 #s2{
-    font-size: 3vh;
+    font-size: 2.5vh;
 
 }
 #text2 #s3{
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 #text2 #s4{
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
  #text2 h1{
@@ -1068,8 +1068,8 @@ letter-spacing: -0.3vw;
  #page3{
     width: 100vw;
     height: 100vh;
-    margin-left: 8%;
-    margin-top: -19%;
+    margin-left: 17vw;
+    margin-top: -25%;
 
 }
 #textbox{
@@ -1078,9 +1078,9 @@ letter-spacing: -0.3vw;
     padding-left: 0%;
     }
     #textbox h2{
-        margin-top: 130%;
+        margin-top: 170%;
         margin-left: -180px;
-        padding: 20px 5px;
+        padding: 0px 5px;
         font-family: Arial, Helvetica, sans-serif;
     }
 #textbox p:nth-child(1){
@@ -1091,7 +1091,7 @@ letter-spacing: -0.3vw;
   line-height: 3vh;
 }
 #textbox p:nth-child(3){
-    margin-top: 0%;
+    margin-top: 8%;
     width: 160%;
     font-size: 2.9vw;
   margin-left: -180px;
@@ -1100,7 +1100,7 @@ letter-spacing: -0.3vw;
 #youtube{
     position: relative;
     top: 14%;
-    left: 0%;
+    left: -11vw;
     width: 250%;
     height: 45%;
 }
@@ -1114,11 +1114,11 @@ letter-spacing: -0.3vw;
 
 #imgbox h3{
     position: relative;
-    top: 17%;
+    top: 15%;
     font-family: "Yank";
-    font-size: 24px;
-    width: 200%;
-    left: 0%;
+    font-size: 22px;
+    width: 250%;
+    left: -10vw;
     line-height: 25px;
 }
 #page4 h1{
@@ -1150,7 +1150,7 @@ letter-spacing: -0.3vw;
 }
 #page4 #glassdiv{
     top: 25%;
-    left: 25%;
+    left: 27%;
     height: 80%;
     width: 35%;
 }
@@ -1159,8 +1159,8 @@ letter-spacing: -0.3vw;
 }
 #pi1>img{
     position: absolute;
-    right: 40%;
-bottom:76%;
+    right: 42%;
+bottom:77%;
     width: 7vw;
 }
 #pi1>h3{
@@ -1184,14 +1184,14 @@ bottom:76%;
  }
  #pi2>img{
      position: absolute;
-     right: 40%;
+     right: 40.5%;
  bottom:62%;
      width: 7vw;
  }
  #pi2>h3{
      font-family: Arial, Helvetica, sans-serif;
      position: absolute;
-     right: 18%;
+     right: 14%;
      bottom:62%;
  }
  #pi2>p{
@@ -1200,25 +1200,26 @@ bottom:76%;
      font-size: 3vw;
      font-weight: 500;
      padding-left: 6px;
-     padding-top: 40px;
+     padding-top: 30px;
      position: absolute;
      right: 4%;
-     bottom:50%;
+     bottom:53%;
  }
  #pi3{
     display: inline;
  }
  #pi3>img{
      position: absolute;
-     right: 40%;
+     right: 40.5%;
  bottom:44%;
      width: 7vw;
      background-color: black;
+     border-radius: 50%;
  }
  #pi3>h3{
      font-family: Arial, Helvetica, sans-serif;
      position: absolute;
-     right: 18%;
+     right: 7%;
      bottom:44%;
  }
  #pi3>p{
@@ -1230,7 +1231,7 @@ bottom:76%;
      padding-top: 40px;
      position: absolute;
      right: 4%;
-     bottom:27%;
+     bottom:31%;
  }
  #page5-text{
       top: -15%;
@@ -1289,7 +1290,7 @@ bottom:76%;
     margin-bottom: 30px;
 }
 #page6 hr{
-    margin-top: 87px;
+    margin-top: 90px;
     margin-left: -2.5%;
 }
 #page6-left{
@@ -1343,11 +1344,19 @@ bottom:76%;
 #page6 #page6-right br{
     display: none;
 }
-.subtitle{
+/*.subtitle{
     position: absolute;
     bottom: 73vh;
     right: 17vh;
     font-size: 3.6vh;
+    font-family: yank;
+    color: white;
+}*/
+.subtitle{
+   width: 100vw;
+   margin-right: -63vw;
+    margin-bottom: 20%;
+    font-size: 2.8vh;
     font-family: yank;
     color: white;
 }
@@ -1355,7 +1364,7 @@ bottom:76%;
     position: absolute;
     bottom: 64vh;
     right: 4vh;
-    padding: 19px 53vw 19px 3vw;
+    padding: 19px 40vw 19px 4vw;
     border-radius: 0% ;
     
 }
@@ -1364,7 +1373,7 @@ bottom:76%;
 }
 #list3 button{
     position: absolute;
-    bottom: 65.05vh;
+    bottom: 65.4vh;
     right: 6.5vh;
     padding: 2vw 2.5vw;
     background-color: black;
@@ -1388,12 +1397,12 @@ bottom:76%;
 }
 #logod{
     margin-top: 40vh;
-    margin-left: 48vh;
+    margin-left: 68vw;
     height: 12vh;
     width: 12vh;
 }
 #list{
-    position: absolute;
+    
     bottom: 7vh;
     left: 5vh;
     height: 40vh;
@@ -1403,14 +1412,14 @@ bottom:76%;
 #list h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5vh;
+    font-size: 4vh;
     font-weight: 900;
     letter-spacing: -0.2vh;
     line-height:6vh ;
     
 }
 #list2{
-    position: absolute;
+   
     bottom: 4vh;
     left: 6vw;
     height: 10vh;
